@@ -12,8 +12,6 @@ main(void) {
   unsigned int and = 3, hundred = 7, thousand = 8;
   unsigned int sum = 0, i;
 
-  char dummy;
-
   // 1-9
   for (i = 1; i < 10; ++i)
     sum += ones[i];
