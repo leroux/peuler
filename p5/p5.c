@@ -3,7 +3,7 @@
 int
 main(void) {
   unsigned long result;
-  int i, flag;
+  int i = 0;
 
   for (result = 2520;; result += 2520) {
     for (i = 10; i < 20; ++i) {
